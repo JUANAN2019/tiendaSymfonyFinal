@@ -154,6 +154,6 @@ class __TwigTemplate_72e87f03ff1267c4e9459ebaa0c90198 extends Template
 
     {{ include('fabricante/_delete_form.html.twig') }}
 {% endblock %}
-", "fabricante/show.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\fabricante\\show.html.twig");
+", "fabricante/show.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\fabricante\\show.html.twig");
     }
 }

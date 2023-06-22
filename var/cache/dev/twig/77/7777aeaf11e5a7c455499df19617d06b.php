@@ -115,6 +115,6 @@ class __TwigTemplate_227610b8d77d10034461352a78972103 extends Template
 
     <a class=\"btn btn-success d-block mx-auto mt-1\" href=\"{{ path('app_fabricante_index') }}\">back to list</a>
 {% endblock %}
-", "fabricante/new.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\fabricante\\new.html.twig");
+", "fabricante/new.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\fabricante\\new.html.twig");
     }
 }

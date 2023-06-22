@@ -713,6 +713,6 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
 </footer>
 
 {% endblock %}
-", "home/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\home\\index.html.twig");
+", "home/index.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\home\\index.html.twig");
     }
 }

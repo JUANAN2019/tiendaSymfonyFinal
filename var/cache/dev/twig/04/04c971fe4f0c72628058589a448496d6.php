@@ -70,9 +70,58 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1 class=\"text-center mb-5\">Listado de Clientes</h1>
+        echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+        <div class=\"container\">
+            <a class=\"navbar-brand\" href=\"#\">
+                <img src=\"";
+        // line 9
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/logo.jpg"), "html", null, true);
+        echo "\" alt=\"Logo\" />
+               
+            </a>
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"
+                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+                <ul class=\"navbar-nav\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 19
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
+        echo "\">Home</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 22
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_producto_index");
+        echo "\">Producto</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_index");
+        echo "\">Cliente</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 28
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_index");
+        echo "\">Fabricante</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 31
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_pedido_index");
+        echo "\">Pedido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class=\"text-center mb-5\">Listado de Clientes</h1>
     <a class=\"btn btn-success\" href=\"";
-        // line 7
+        // line 38
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_new");
         echo "\">Crear cliente</a>
     <div class=\"table-responsive\">
@@ -89,41 +138,41 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
         </thead>
         <tbody>
         ";
-        // line 21
+        // line 52
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["clientes"]) || array_key_exists("clientes", $context) ? $context["clientes"] : (function () { throw new RuntimeError('Variable "clientes" does not exist.', 21, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["clientes"]) || array_key_exists("clientes", $context) ? $context["clientes"] : (function () { throw new RuntimeError('Variable "clientes" does not exist.', 52, $this->source); })()));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["cliente"]) {
-            // line 22
+            // line 53
             echo "            <tr>
                 <td>";
-            // line 23
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "id", [], "any", false, false, false, 23), "html", null, true);
+            // line 54
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "id", [], "any", false, false, false, 54), "html", null, true);
             echo "</td>
                 <td>";
-            // line 24
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "nombre", [], "any", false, false, false, 24), "html", null, true);
+            // line 55
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "nombre", [], "any", false, false, false, 55), "html", null, true);
             echo "</td>
                 <td>";
-            // line 25
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "apellido1", [], "any", false, false, false, 25), "html", null, true);
+            // line 56
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "apellido1", [], "any", false, false, false, 56), "html", null, true);
             echo "</td>
                 <td>";
-            // line 26
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "apellido2", [], "any", false, false, false, 26), "html", null, true);
+            // line 57
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "apellido2", [], "any", false, false, false, 57), "html", null, true);
             echo "</td>
                 <td>";
-            // line 27
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "direccion", [], "any", false, false, false, 27), "html", null, true);
+            // line 58
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["cliente"], "direccion", [], "any", false, false, false, 58), "html", null, true);
             echo "</td>
                 <td>
                     <a class=\"btn btn-primary\" href=\"";
-            // line 29
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_show", ["id" => twig_get_attribute($this->env, $this->source, $context["cliente"], "id", [], "any", false, false, false, 29)]), "html", null, true);
+            // line 60
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_show", ["id" => twig_get_attribute($this->env, $this->source, $context["cliente"], "id", [], "any", false, false, false, 60)]), "html", null, true);
             echo "\">show</a>
                     <a class=\"btn btn-warning\" href=\"";
-            // line 30
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["cliente"], "id", [], "any", false, false, false, 30)]), "html", null, true);
+            // line 61
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["cliente"], "id", [], "any", false, false, false, 61)]), "html", null, true);
             echo "\">edit</a>
                 </td>
             </tr>
@@ -131,7 +180,7 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 34
+            // line 65
             echo "            <tr>
                 <td colspan=\"6\">no records found</td>
             </tr>
@@ -140,13 +189,13 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['cliente'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 38
+        // line 69
         echo "        </tbody>
     </table>
     </div>
 
     <a class=\"btn btn-success\" href=\"";
-        // line 42
+        // line 73
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_new");
         echo "\">Crear cliente</a>
 ";
@@ -167,7 +216,7 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
 
     public function getDebugInfo()
     {
-        return array (  150 => 42,  144 => 38,  135 => 34,  126 => 30,  122 => 29,  117 => 27,  113 => 26,  109 => 25,  105 => 24,  101 => 23,  98 => 22,  93 => 21,  76 => 7,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  199 => 73,  193 => 69,  184 => 65,  175 => 61,  171 => 60,  166 => 58,  162 => 57,  158 => 56,  154 => 55,  150 => 54,  147 => 53,  142 => 52,  125 => 38,  115 => 31,  109 => 28,  103 => 25,  97 => 22,  91 => 19,  78 => 9,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -177,6 +226,37 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
 {% block title %}Cliente index{% endblock %}
 
 {% block body %}
+<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+        <div class=\"container\">
+            <a class=\"navbar-brand\" href=\"#\">
+                <img src=\"{{ asset('css/coches/logo.jpg') }}\" alt=\"Logo\" />
+               
+            </a>
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"
+                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+                <ul class=\"navbar-nav\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_home') }}\">Home</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_producto_index') }}\">Producto</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_cliente_index') }}\">Cliente</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_fabricante_index') }}\">Fabricante</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_pedido_index') }}\">Pedido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1 class=\"text-center mb-5\">Listado de Clientes</h1>
     <a class=\"btn btn-success\" href=\"{{ path('app_cliente_new') }}\">Crear cliente</a>
     <div class=\"table-responsive\">
@@ -215,6 +295,6 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
 
     <a class=\"btn btn-success\" href=\"{{ path('app_cliente_new') }}\">Crear cliente</a>
 {% endblock %}
-", "cliente/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\cliente\\index.html.twig");
+", "cliente/index.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\cliente\\index.html.twig");
     }
 }

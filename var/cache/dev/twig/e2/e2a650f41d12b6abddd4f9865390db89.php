@@ -73,6 +73,6 @@ class __TwigTemplate_90f995459b6220f35bcd6c1ae6c72926 extends Template
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ pedido.id) }}\">
     <button class=\"btn btn-danger d-block mx-auto \">Delete</button>
 </form>
-", "pedido/_delete_form.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\pedido\\_delete_form.html.twig");
+", "pedido/_delete_form.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\pedido\\_delete_form.html.twig");
     }
 }

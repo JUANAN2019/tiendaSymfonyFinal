@@ -212,6 +212,8 @@ return [[
 '[C]App%5CEntity%5CPedido%24fk_producto' => 1,
 'App%5CEntity%5CProducto' => 0,
 '[C]App%5CEntity%5CProducto' => 1,
+'App%5CEntity%5CProducto%23__construct' => 0,
+'[C]App%5CEntity%5CProducto%23__construct' => 1,
 'App%5CEntity%5CProducto%23getId' => 0,
 '[C]App%5CEntity%5CProducto%23getId' => 1,
 'App%5CEntity%5CProducto%23getProducto' => 0,
@@ -236,6 +238,8 @@ return [[
 '[C]App%5CEntity%5CProducto%24precio' => 1,
 'App%5CEntity%5CProducto%24fk_fabricante' => 0,
 '[C]App%5CEntity%5CProducto%24fk_fabricante' => 1,
+'App%5CEntity%5CProducto%24pedidos' => 0,
+'[C]App%5CEntity%5CProducto%24pedidos' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 0,
 '[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 0,
@@ -702,6 +706,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1687249954,
+1 => 1687420505,
 
 ]];

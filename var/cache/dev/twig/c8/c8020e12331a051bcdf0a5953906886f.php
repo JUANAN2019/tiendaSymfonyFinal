@@ -71,7 +71,7 @@ class __TwigTemplate_228e3b73f3df74867b187cdda5b883b0 extends Template
 
         // line 6
         echo "    <h1 class=\"text-center mb-3\">Crear nuevo pedido</h1>
-
+    
     ";
         // line 8
         echo twig_include($this->env, $context, "pedido/_form.html.twig");
@@ -110,11 +110,11 @@ class __TwigTemplate_228e3b73f3df74867b187cdda5b883b0 extends Template
 
 {% block body %}
     <h1 class=\"text-center mb-3\">Crear nuevo pedido</h1>
-
+    
     {{ include('pedido/_form.html.twig') }}
 
     <a class=\"btn btn-success d-block mx-auto mt-1\" href=\"{{ path('app_pedido_index') }}\">back to list</a>
 {% endblock %}
-", "pedido/new.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\pedido\\new.html.twig");
+", "pedido/new.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\pedido\\new.html.twig");
     }
 }

@@ -117,6 +117,6 @@ class __TwigTemplate_e63f051260741678689a5d533115909e extends Template
 
     
 {% endblock %}
-", "cliente/new.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\cliente\\new.html.twig");
+", "cliente/new.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\cliente\\new.html.twig");
     }
 }

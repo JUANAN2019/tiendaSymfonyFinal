@@ -78,6 +78,6 @@ class __TwigTemplate_8b903dcfbef082a837e77b22cff517df extends Template
     {{ form_widget(form) }}
     <button class=\"btn btn-primary\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-", "cliente/_form.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\cliente\\_form.html.twig");
+", "cliente/_form.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\cliente\\_form.html.twig");
     }
 }

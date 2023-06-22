@@ -171,6 +171,6 @@ class __TwigTemplate_2884e74aef6badf93543eb2ac10418e0 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony final\\templates\\base.html.twig");
+", "base.html.twig", "C:\\Users\\34692\\Desktop\\PROYECTOS\\tiendasymfonyfinal\\tiendaSymfonyFinal\\templates\\base.html.twig");
     }
 }
