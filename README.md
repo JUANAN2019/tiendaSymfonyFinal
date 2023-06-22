@@ -34,7 +34,7 @@ La pagina de inicio nos ofrece una vision general de la empresa Elite Motors per
 Fran<br>
 Product Owner<br>
 <br>
-<img src="" width="200" height="200"><br><br>
+<img src="public/imagenesReadme/eliot3.jpg" width="200" height="200"><br><br>
 
 Marcela<br>
 Scrum Manager<br>
