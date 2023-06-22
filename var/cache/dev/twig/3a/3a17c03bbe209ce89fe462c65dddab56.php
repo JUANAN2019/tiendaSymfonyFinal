@@ -70,9 +70,58 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1 class=\"text-center mb-3\">Listado Fabricantes</h1>
+        echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+        <div class=\"container\">
+            <a class=\"navbar-brand\" href=\"#\">
+                <img src=\"";
+        // line 9
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/logo.jpg"), "html", null, true);
+        echo "\" alt=\"Logo\" />
+               
+            </a>
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"
+                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+                <ul class=\"navbar-nav\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 19
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
+        echo "\">Home</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 22
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_producto_index");
+        echo "\">Producto</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_index");
+        echo "\">Cliente</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 28
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_index");
+        echo "\">Fabricante</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 31
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_pedido_index");
+        echo "\">Pedido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class=\"text-center mb-3\">Listado Fabricantes</h1>
      <a class=\"btn btn-success\" href=\"";
-        // line 7
+        // line 38
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_new");
         echo "\">Create new</a>
     <table class=\"table table-dark table-striped\">
@@ -85,29 +134,29 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
         </thead>
         <tbody>
         ";
-        // line 17
+        // line 48
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["fabricantes"]) || array_key_exists("fabricantes", $context) ? $context["fabricantes"] : (function () { throw new RuntimeError('Variable "fabricantes" does not exist.', 17, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["fabricantes"]) || array_key_exists("fabricantes", $context) ? $context["fabricantes"] : (function () { throw new RuntimeError('Variable "fabricantes" does not exist.', 48, $this->source); })()));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["fabricante"]) {
-            // line 18
+            // line 49
             echo "            <tr>
                 <td>";
-            // line 19
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["fabricante"], "id", [], "any", false, false, false, 19), "html", null, true);
+            // line 50
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["fabricante"], "id", [], "any", false, false, false, 50), "html", null, true);
             echo "</td>
                 <td>";
-            // line 20
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["fabricante"], "fabricante", [], "any", false, false, false, 20), "html", null, true);
+            // line 51
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["fabricante"], "fabricante", [], "any", false, false, false, 51), "html", null, true);
             echo "</td>
                 <td>
                     <a class=\"btn btn-primary\" href=\"";
-            // line 22
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_show", ["id" => twig_get_attribute($this->env, $this->source, $context["fabricante"], "id", [], "any", false, false, false, 22)]), "html", null, true);
+            // line 53
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_show", ["id" => twig_get_attribute($this->env, $this->source, $context["fabricante"], "id", [], "any", false, false, false, 53)]), "html", null, true);
             echo "\">show</a>
                     <a class=\"btn btn-warning\" href=\"";
-            // line 23
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["fabricante"], "id", [], "any", false, false, false, 23)]), "html", null, true);
+            // line 54
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["fabricante"], "id", [], "any", false, false, false, 54)]), "html", null, true);
             echo "\">edit</a>
                 </td>
             </tr>
@@ -115,7 +164,7 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 27
+            // line 58
             echo "            <tr>
                 <td colspan=\"3\">no records found</td>
             </tr>
@@ -124,11 +173,11 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['fabricante'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 31
+        // line 62
         echo "        </tbody>
     </table>
     <a class=\"btn btn-success\" href=\"";
-        // line 33
+        // line 64
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_new");
         echo "\">Create new</a>
    
@@ -150,7 +199,7 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
 
     public function getDebugInfo()
     {
-        return array (  132 => 33,  128 => 31,  119 => 27,  110 => 23,  106 => 22,  101 => 20,  97 => 19,  94 => 18,  89 => 17,  76 => 7,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  181 => 64,  177 => 62,  168 => 58,  159 => 54,  155 => 53,  150 => 51,  146 => 50,  143 => 49,  138 => 48,  125 => 38,  115 => 31,  109 => 28,  103 => 25,  97 => 22,  91 => 19,  78 => 9,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -160,6 +209,37 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
 {% block title %}Fabricante index{% endblock %}
 
 {% block body %}
+<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+        <div class=\"container\">
+            <a class=\"navbar-brand\" href=\"#\">
+                <img src=\"{{ asset('css/coches/logo.jpg') }}\" alt=\"Logo\" />
+               
+            </a>
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"
+                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+                <ul class=\"navbar-nav\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_home') }}\">Home</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_producto_index') }}\">Producto</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_cliente_index') }}\">Cliente</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_fabricante_index') }}\">Fabricante</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_pedido_index') }}\">Pedido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1 class=\"text-center mb-3\">Listado Fabricantes</h1>
      <a class=\"btn btn-success\" href=\"{{ path('app_fabricante_new') }}\">Create new</a>
     <table class=\"table table-dark table-striped\">
@@ -190,6 +270,10 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
     <a class=\"btn btn-success\" href=\"{{ path('app_fabricante_new') }}\">Create new</a>
    
 {% endblock %}
+<<<<<<< HEAD
 ", "fabricante/index.html.twig", "C:\\Users\\bryam santiago\\Desktop\\tiendaSymfonyFinal\\templates\\fabricante\\index.html.twig");
+=======
+", "fabricante/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendaSymfonyFinal\\templates\\fabricante\\index.html.twig");
+>>>>>>> 53912ebc3948a978f679f8d11272c1280a78671e
     }
 }

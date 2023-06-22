@@ -76,19 +76,10 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
         echo "
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\">
     <style>
-        .navbar {
-            background-color: #202020;
-        }
-
-        .navbar-brand img {
-            max-height: 60px;
-            margin-right: 10px;
-         
-        }
-  .jumbotron {
-            background-image: url('";
-        // line 19
+        .jumbotron h1,.jumbotron h2{font-size:40px}.navbar{background-color:#202020}.navbar-brand img{max-height:60px;margin-right:10px}.jumbotron{background-image:url('";
+        // line 9
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/images/coche.jpg"), "html", null, true);
+      
         echo "');
             background-size: cover;
             background-position: center;
@@ -268,6 +259,7 @@ footer div button{
         align-items: center;
     }
 }
+
     </style>
 ";
         
@@ -275,20 +267,26 @@ footer div button{
 
     }
 
+
     // line 201
+
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+
         // line 202
+
         echo "    <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
         <div class=\"container\">
             <a class=\"navbar-brand\" href=\"#\">
                 <img src=\"";
+
         // line 205
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/em2.png"), "html", null, true);
+
         echo "\" alt=\"Logo\" />
                
             </a>
@@ -300,31 +298,41 @@ footer div button{
                 <ul class=\"navbar-nav\">
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
+
         // line 215
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         echo "\">Home</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
+
         // line 218
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_producto_index");
         echo "\">Producto</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
+
         // line 221
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_index");
         echo "\">Cliente</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
+
         // line 224
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_index");
         echo "\">Fabricante</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
+
         // line 227
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_pedido_index");
         echo "\">Pedido</a>
                     </li>
@@ -343,7 +351,9 @@ footer div button{
         <div class=\"grid-container\">
     <div class=\"grid-item\">
         <img src=\"";
+
         // line 243
+
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/blanco.jpg"), "html", null, true);
         echo "\" alt=\"Image 1\">
         <div class=\"overlay\">
@@ -352,8 +362,10 @@ footer div button{
     </div>
     <div class=\"grid-item\">
         <img src=\"";
+
         // line 249
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/vintage.jpg"), "html", null, true);
+
         echo "\" alt=\"Image 2\">
         <div class=\"overlay\">
             <h3>Eleva tu estilo de conducción con nuestra colección de coches de lujo\"</h3>
@@ -361,7 +373,9 @@ footer div button{
     </div>
     <div class=\"grid-item\">
         <img src=\"";
+
         // line 255
+
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/lujoso.jpg"), "html", null, true);
         echo "\" alt=\"Image 3\">
         <div class=\"overlay\">
@@ -370,7 +384,9 @@ footer div button{
     </div>
     <div class=\"grid-item\">
         <img src=\"";
+
         // line 261
+
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/rojo.jpg"), "html", null, true);
         echo "\" alt=\"Image 4\">
         <div class=\"overlay\">
@@ -379,8 +395,10 @@ footer div button{
     </div>
     <div class=\"grid-item\">
         <img src=\"";
+
         // line 267
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/bugatti.jpg"), "html", null, true);
+
         echo "\" alt=\"Image 5\">
         <div class=\"overlay\">
             <h3>El pináculo del lujo automotriz: Descubre nuestra colección de coches exclusivos y déjate llevar por el refinamiento supremo</h3>
@@ -388,8 +406,10 @@ footer div button{
     </div>
     <div class=\"grid-item\">
         <img src=\"";
+
         // line 273
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/mclaren.jpg"), "html", null, true);
+
         echo "\" alt=\"Image 6\">
         <div class=\"overlay\">
             <h3>\"El arte de la elegancia en movimiento: Explora nuestra gama de coches lujosos y experimenta un viaje de alto nivel\"</h3>
@@ -406,8 +426,10 @@ footer div button{
                     <div class=\"col-md-4 mb-4\">
                         <div class=\"card\">
                             <img src=\"";
+
         // line 288
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/Santi.jpg"), "html", null, true);
+
         echo "\" class=\"card-img-top\" alt=\"Miembro del equipo 1\">
                             <div class=\"card-body\">
                                 <h5 class=\"card-title\">Santiago Andrade</h5>
@@ -418,8 +440,10 @@ footer div button{
                     <div class=\"col-md-4 mb-4\">
                         <div class=\"card\">
                             <img src=\"";
+
         // line 297
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/Juanan.jpg"), "html", null, true);
+
         echo "\" class=\"card-img-top\" alt=\"Miembro del equipo 2\">
                             <div class=\"card-body\">
                                 <h5 class=\"card-title\">Juan Antonio</h5>
@@ -430,8 +454,10 @@ footer div button{
                     <div class=\"col-md-4 mb-4\">
                         <div class=\"card\">
                             <img src=\"";
+
         // line 306
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/Fran.jpg"), "html", null, true);
+
         echo "\" class=\"card-img-top\" alt=\"Miembro del equipo 3\">
                             <div class=\"card-body\">
                                 <h5 class=\"card-title\">Fran Ramírez</h5>
@@ -458,14 +484,18 @@ footer div button{
                 <div class=\"row\">
                     <div class=\"col-md-6\">
                         <img src=\"";
+
         // line 328
+
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/mantenimiento.jpg"), "html", null, true);
         echo "\" class=\"img-fluid\" alt=\"Servicio 1\">
                         <p>Mantenimiento y reparación de vehículos</p>
                     </div>
                     <div class=\"col-md-6\">
                         <img src=\"";
+
         // line 332
+
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/repuestos.jpg"), "html", null, true);
         echo "\" class=\"img-fluid\" alt=\"Servicio 2\">
                         <p>Venta de repuestos y accesorios</p>
@@ -530,7 +560,9 @@ footer div button{
 
     public function getDebugInfo()
     {
+
         return array (  469 => 332,  462 => 328,  446 => 315,  434 => 306,  422 => 297,  410 => 288,  392 => 273,  383 => 267,  374 => 261,  365 => 255,  356 => 249,  347 => 243,  328 => 227,  322 => 224,  316 => 221,  310 => 218,  304 => 215,  291 => 205,  286 => 202,  279 => 201,  91 => 19,  74 => 6,  67 => 5,  54 => 3,  37 => 1,);
+
     }
 
     public function getSourceContext()
@@ -543,6 +575,7 @@ footer div button{
     {{ parent() }}
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\">
     <style>
+
         .navbar {
             background-color: #202020;
         }
@@ -732,6 +765,7 @@ footer div button{
         align-items: center;
     }
 }
+
     </style>
 {% endblock %}
 
@@ -911,6 +945,9 @@ footer div button{
         <div>Copyright 2023 © Every rigths reserved.</div>
     </footer>
 
-{% endblock %}", "home/index.html.twig", "C:\\Users\\bryam santiago\\Desktop\\tiendaSymfonyFinal\\templates\\home\\index.html.twig");
+
+{% endblock %}
+", "home/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendaSymfonyFinal\\templates\\home\\index.html.twig");
+
     }
 }
