@@ -1,3 +1,4 @@
+
 body {
     background: #e7edff;
     color: #000;
@@ -5,7 +6,7 @@ body {
 }
 
 form {
-    width: 458px;
+    /*width: 458px;*/
     margin: auto;
     background: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
@@ -82,3 +83,4 @@ td {
     justify-content: center;
 
 }
+
