@@ -34,7 +34,7 @@ La pagina de inicio nos ofrece una vision general de la empresa Elite Motors per
 Fran<br>
 Product Owner<br>
 <br>
-<img src="public/imagenesReadme/css.png" width="200" height="200"><br><br>
+<img src="public/imagenesReadme/eliot3.jpg" width="200" height="200"><br><br>
 
 Marcela<br>
 Scrum Manager<br>
@@ -51,7 +51,7 @@ Desarrollador<br>
 
 
 ## **Tecnologias utilizadas**<br><br>
-
+<p >
 <img src="public/imagenesReadme/css.png">
 <img src="public/imagenesReadme/githubok.png">
 <img src="public/imagenesReadme/php.png">
@@ -60,6 +60,7 @@ Desarrollador<br>
 <img src="public/imagenesReadme/sqlite.png">
 <img src="public/imagenesReadme/xampp.png">
 <img src="public/imagenesReadme/phpmyadmin_logo_icon_168906.png">
+</p>
 <br><br>
 
 
