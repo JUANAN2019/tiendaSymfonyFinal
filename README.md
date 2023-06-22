@@ -38,15 +38,17 @@ Product Owner<br>
 
 Marcela<br>
 Scrum Manager<br>
-<br>
+<br><br>
+
 <img src="public/imagenesReadme/Marcela.jpg"  width="200" height="200"><br><br>
 Santiago<br>
 Desarrolladorr<br>
-<br>
+<br><br>
+
 <img src="public/imagenesReadme/Santi.jpg"  width="200" height="200"><br><br>
 Juan Antonio<br>
 Desarrollador<br>
-<br>
+<br><br>
 <img src="public/imagenesReadme/juananok.jpg "  width="200" height="200"><br>
 
 
