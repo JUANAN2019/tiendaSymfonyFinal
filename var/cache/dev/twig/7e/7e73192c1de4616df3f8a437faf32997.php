@@ -251,7 +251,6 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
             <div class=\"col-md-6\">
@@ -259,14 +258,14 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                 <div class=\"row\">
                     <div class=\"col-md-6\">
                         <img src=\"";
-        // line 132
+        // line 131
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/mantenimiento.jpg"), "html", null, true);
         echo "\" class=\"img-fluid\" alt=\"Servicio 1\">
                         <p>Mantenimiento y reparación de vehículos</p>
                     </div>
                     <div class=\"col-md-6\">
                         <img src=\"";
-        // line 136
+        // line 135
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/repuestos.jpg"), "html", null, true);
         echo "\" class=\"img-fluid\" alt=\"Servicio 2\">
                         <p>Venta de repuestos y accesorios</p>
@@ -319,7 +318,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
 
     public function getDebugInfo()
     {
-        return array (  270 => 136,  263 => 132,  246 => 118,  234 => 109,  222 => 100,  204 => 85,  195 => 79,  186 => 73,  177 => 67,  168 => 61,  159 => 55,  140 => 39,  134 => 36,  128 => 33,  122 => 30,  116 => 27,  103 => 17,  98 => 14,  91 => 13,  81 => 9,  74 => 6,  67 => 5,  54 => 3,  37 => 1,);
+        return array (  269 => 135,  262 => 131,  246 => 118,  234 => 109,  222 => 100,  204 => 85,  195 => 79,  186 => 73,  177 => 67,  168 => 61,  159 => 55,  140 => 39,  134 => 36,  128 => 33,  122 => 30,  116 => 27,  103 => 17,  98 => 14,  91 => 13,  81 => 9,  74 => 6,  67 => 5,  54 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -448,7 +447,6 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
             <div class=\"col-md-6\">

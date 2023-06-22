@@ -3,14 +3,6 @@
 
 
 
-## **Contenido del repositorio**
-
-Página principal<br>
-1. Archivos: **index.html, style.css, index.js**<br>
-2. Carpetas: **img, imgReadme**<br>
-3. Documento **README**<br>
-4. Enlace a **Figma**<br>
-5. Enlace a **Trello**<br>
 
 ## **Sobre la Página**
 
@@ -36,29 +28,39 @@ La pagina de inicio nos ofrece una vision general de la empresa Elite Motors per
 
 
 
-## **Nosotros**
+## **El equipo**
 
 
 Fran<br>
 Product Owner<br>
 <br>
+<img src="public/imagenesReadme/css.png" width="200" height="200"><br><br>
 
 Marcela<br>
 Scrum Manager<br>
 <br>
-
+<img src="public/imagenesReadme/Marcela.jpg"  width="200" height="200"><br><br>
 Santiago<br>
 Desarrolladorr<br>
 <br>
-Juanan<br>
+<img src="public/imagenesReadme/Santi.jpg"  width="200" height="200"><br><br>
+Juan Antonio<br>
 Desarrollador<br>
 <br>
+<img src="public/imagenesReadme/juananok.jpg "  width="200" height="200"><br>
 
 
-## **Tecnologias utilizadas**
+## **Tecnologias utilizadas**<br><br>
 
-<img src="https://www.flaticon.es/iconos-gratis/css-3" title="css 3 iconos">
-
+<img src="public/imagenesReadme/css.png">
+<img src="public/imagenesReadme/githubok.png">
+<img src="public/imagenesReadme/php.png">
+<img src="public/imagenesReadme/symfony.png">
+<img src="public/imagenesReadme/bootstrap.png">
+<img src="public/imagenesReadme/sqlite.png">
+<img src="public/imagenesReadme/xampp.png">
+<img src="public/imagenesReadme/phpmyadmin_logo_icon_168906.png">
+<br><br>
 
 
 
