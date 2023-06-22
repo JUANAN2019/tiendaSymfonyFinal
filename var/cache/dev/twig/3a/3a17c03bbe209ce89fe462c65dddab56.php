@@ -190,6 +190,6 @@ class __TwigTemplate_69c3857e5f407fd2545e05925528b4c5 extends Template
     <a class=\"btn btn-success\" href=\"{{ path('app_fabricante_new') }}\">Create new</a>
    
 {% endblock %}
-", "fabricante/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\fabricante\\index.html.twig");
+", "fabricante/index.html.twig", "C:\\Users\\bryam santiago\\Desktop\\tiendaSymfonyFinal\\templates\\fabricante\\index.html.twig");
     }
 }

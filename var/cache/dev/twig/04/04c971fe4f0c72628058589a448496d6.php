@@ -215,6 +215,6 @@ class __TwigTemplate_40456420ce0078f60aa6e90e143c57ab extends Template
 
     <a class=\"btn btn-success\" href=\"{{ path('app_cliente_new') }}\">Crear cliente</a>
 {% endblock %}
-", "cliente/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\cliente\\index.html.twig");
+", "cliente/index.html.twig", "C:\\Users\\bryam santiago\\Desktop\\tiendaSymfonyFinal\\templates\\cliente\\index.html.twig");
     }
 }
