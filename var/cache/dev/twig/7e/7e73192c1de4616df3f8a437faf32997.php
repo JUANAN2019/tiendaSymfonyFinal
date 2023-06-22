@@ -76,120 +76,10 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
         echo "
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\">
     <style>
-        .navbar {
-            background-color: #202020;
-        }
-
-        .navbar-brand img {
-            max-height: 60px;
-            margin-right: 10px;
-         
-        }
-  .jumbotron {
-            background-image: url('";
-        // line 19
+        .jumbotron h1,.jumbotron h2{font-size:40px}.navbar{background-color:#202020}.navbar-brand img{max-height:60px;margin-right:10px}.jumbotron{background-image:url('";
+        // line 9
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/images/coche.jpg"), "html", null, true);
-        echo "');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            padding: 4rem;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            
-            
-        }
-
-  .jumbotron h1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  .jumbotron h2 {
-    font-size: 40px;
-  }
-
-     .jumbotron .container.text-center {
-    padding-top: 5px; /* Ajusta el valor según sea necesario */
-  }
-     
-    .title {
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 20px;
-  }
-
-  .title:hover {
-    color:  #555555;
-    text-decoration: underline;
-  }
-       
-     .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin-top: 20px;
-}
-
-.grid-item {
-    position: relative;
-    overflow: hidden;
-   
- 
-}
-
-.grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-      transition: transform 0.3s ease;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.grid-item:hover .overlay {
-    opacity: 1;
-     transform: scale(1.1);
-    
-}
-
-.overlay h3 {
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-}
-    
-        .footer {
-            background-color: #2f2f2f;
-            border-top: 1px solid #ddd;
-            padding-top: 15px;
-            color: #fff;
-        }
-        
-        .footer .social-icons a {
-            color: #999;
-            margin-right: 10px;
-        }
+        echo "');background-size:cover;background-position:center;color:#fff;padding:4rem;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-shadow:2px 2px 4px rgba(0,0,0,.5)}.jumbotron h1{font-weight:700;margin-bottom:20px}.jumbotron .container.text-center{padding-top:5px}.title{text-align:center;color:#000;font-weight:700;text-decoration:none;margin:20px}.title:hover{color:#555;text-decoration:underline}.grid-container{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);grid-gap:10px;margin-top:20px}.grid-item{position:relative;overflow:hidden}.grid-item img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;background-color:rgba(0,0,0,.5);opacity:0;transition:opacity .3s}.grid-item:hover .overlay{opacity:1;transform:scale(1.1)}.overlay h3{color:#fff;font-size:20px;text-align:center}.footer{background-color:#2f2f2f;border-top:1px solid #ddd;padding-top:15px;color:#fff}.footer .social-icons a{color:#999;margin-right:10px}
     </style>
 ";
         
@@ -197,19 +87,19 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
 
     }
 
-    // line 123
+    // line 13
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 124
+        // line 14
         echo "    <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
         <div class=\"container\">
             <a class=\"navbar-brand\" href=\"#\">
                 <img src=\"";
-        // line 127
+        // line 17
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/logo.jpg"), "html", null, true);
         echo "\" alt=\"Logo\" />
                
@@ -222,31 +112,31 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                 <ul class=\"navbar-nav\">
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
-        // line 137
+        // line 27
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         echo "\">Home</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
-        // line 140
+        // line 30
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_producto_index");
         echo "\">Producto</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
-        // line 143
+        // line 33
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_index");
         echo "\">Cliente</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
-        // line 146
+        // line 36
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_index");
         echo "\">Fabricante</a>
                     </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"";
-        // line 149
+        // line 39
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_pedido_index");
         echo "\">Pedido</a>
                     </li>
@@ -265,7 +155,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
         <div class=\"grid-container\">
     <div class=\"grid-item\">
         <img src=\"";
-        // line 165
+        // line 55
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/blanco.jpg"), "html", null, true);
         echo "\" alt=\"Image 1\">
         <div class=\"overlay\">
@@ -274,7 +164,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
     </div>
     <div class=\"grid-item\">
         <img src=\"";
-        // line 171
+        // line 61
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/hermoso.jpg"), "html", null, true);
         echo "\" alt=\"Image 2\">
         <div class=\"overlay\">
@@ -283,7 +173,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
     </div>
     <div class=\"grid-item\">
         <img src=\"";
-        // line 177
+        // line 67
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/lujoso.jpg"), "html", null, true);
         echo "\" alt=\"Image 3\">
         <div class=\"overlay\">
@@ -292,7 +182,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
     </div>
     <div class=\"grid-item\">
         <img src=\"";
-        // line 183
+        // line 73
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/rojo.jpg"), "html", null, true);
         echo "\" alt=\"Image 4\">
         <div class=\"overlay\">
@@ -301,7 +191,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
     </div>
     <div class=\"grid-item\">
         <img src=\"";
-        // line 189
+        // line 79
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/verde.jpg"), "html", null, true);
         echo "\" alt=\"Image 5\">
         <div class=\"overlay\">
@@ -310,7 +200,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
     </div>
     <div class=\"grid-item\">
         <img src=\"";
-        // line 195
+        // line 85
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/gris.jpg"), "html", null, true);
         echo "\" alt=\"Image 6\">
         <div class=\"overlay\">
@@ -328,7 +218,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                     <div class=\"col-md-4 mb-4\">
                         <div class=\"card\">
                             <img src=\"";
-        // line 210
+        // line 100
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/asesor.jpg"), "html", null, true);
         echo "\" class=\"card-img-top\" alt=\"Miembro del equipo 1\">
                             <div class=\"card-body\">
@@ -340,7 +230,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                     <div class=\"col-md-4 mb-4\">
                         <div class=\"card\">
                             <img src=\"";
-        // line 219
+        // line 109
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/coordinador.jpg"), "html", null, true);
         echo "\" class=\"card-img-top\" alt=\"Miembro del equipo 2\">
                             <div class=\"card-body\">
@@ -352,7 +242,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                     <div class=\"col-md-4 mb-4\">
                         <div class=\"card\">
                             <img src=\"";
-        // line 228
+        // line 118
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/jefe.jpg"), "html", null, true);
         echo "\" class=\"card-img-top\" alt=\"Miembro del equipo 3\">
                             <div class=\"card-body\">
@@ -361,7 +251,6 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
             <div class=\"col-md-6\">
@@ -369,14 +258,14 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                 <div class=\"row\">
                     <div class=\"col-md-6\">
                         <img src=\"";
-        // line 242
+        // line 131
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/mantenimiento.jpg"), "html", null, true);
         echo "\" class=\"img-fluid\" alt=\"Servicio 1\">
                         <p>Mantenimiento y reparación de vehículos</p>
                     </div>
                     <div class=\"col-md-6\">
                         <img src=\"";
-        // line 246
+        // line 135
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/repuestos.jpg"), "html", null, true);
         echo "\" class=\"img-fluid\" alt=\"Servicio 2\">
                         <p>Venta de repuestos y accesorios</p>
@@ -429,7 +318,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
 
     public function getDebugInfo()
     {
-        return array (  380 => 246,  373 => 242,  356 => 228,  344 => 219,  332 => 210,  314 => 195,  305 => 189,  296 => 183,  287 => 177,  278 => 171,  269 => 165,  250 => 149,  244 => 146,  238 => 143,  232 => 140,  226 => 137,  213 => 127,  208 => 124,  201 => 123,  91 => 19,  74 => 6,  67 => 5,  54 => 3,  37 => 1,);
+        return array (  269 => 135,  262 => 131,  246 => 118,  234 => 109,  222 => 100,  204 => 85,  195 => 79,  186 => 73,  177 => 67,  168 => 61,  159 => 55,  140 => 39,  134 => 36,  128 => 33,  122 => 30,  116 => 27,  103 => 17,  98 => 14,  91 => 13,  81 => 9,  74 => 6,  67 => 5,  54 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -442,117 +331,7 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
     {{ parent() }}
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\">
     <style>
-        .navbar {
-            background-color: #202020;
-        }
-
-        .navbar-brand img {
-            max-height: 60px;
-            margin-right: 10px;
-         
-        }
-  .jumbotron {
-            background-image: url('{{ asset('css/images/coche.jpg') }}');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            padding: 4rem;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            
-            
-        }
-
-  .jumbotron h1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  .jumbotron h2 {
-    font-size: 40px;
-  }
-
-     .jumbotron .container.text-center {
-    padding-top: 5px; /* Ajusta el valor según sea necesario */
-  }
-     
-    .title {
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 20px;
-  }
-
-  .title:hover {
-    color:  #555555;
-    text-decoration: underline;
-  }
-       
-     .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin-top: 20px;
-}
-
-.grid-item {
-    position: relative;
-    overflow: hidden;
-   
- 
-}
-
-.grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-      transition: transform 0.3s ease;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.grid-item:hover .overlay {
-    opacity: 1;
-     transform: scale(1.1);
-    
-}
-
-.overlay h3 {
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-}
-    
-        .footer {
-            background-color: #2f2f2f;
-            border-top: 1px solid #ddd;
-            padding-top: 15px;
-            color: #fff;
-        }
-        
-        .footer .social-icons a {
-            color: #999;
-            margin-right: 10px;
-        }
+        .jumbotron h1,.jumbotron h2{font-size:40px}.navbar{background-color:#202020}.navbar-brand img{max-height:60px;margin-right:10px}.jumbotron{background-image:url('{{ asset('css/images/coche.jpg') }}');background-size:cover;background-position:center;color:#fff;padding:4rem;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-shadow:2px 2px 4px rgba(0,0,0,.5)}.jumbotron h1{font-weight:700;margin-bottom:20px}.jumbotron .container.text-center{padding-top:5px}.title{text-align:center;color:#000;font-weight:700;text-decoration:none;margin:20px}.title:hover{color:#555;text-decoration:underline}.grid-container{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);grid-gap:10px;margin-top:20px}.grid-item{position:relative;overflow:hidden}.grid-item img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;background-color:rgba(0,0,0,.5);opacity:0;transition:opacity .3s}.grid-item:hover .overlay{opacity:1;transform:scale(1.1)}.overlay h3{color:#fff;font-size:20px;text-align:center}.footer{background-color:#2f2f2f;border-top:1px solid #ddd;padding-top:15px;color:#fff}.footer .social-icons a{color:#999;margin-right:10px}
     </style>
 {% endblock %}
 
@@ -668,7 +447,6 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
             <div class=\"col-md-6\">
@@ -713,6 +491,6 @@ class __TwigTemplate_f43a253a0d81390c1f21fb9a201b5cf5 extends Template
 </footer>
 
 {% endblock %}
-", "home/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\home\\index.html.twig");
+", "home/index.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendaSymfonyFinal\\templates\\home\\index.html.twig");
     }
 }
