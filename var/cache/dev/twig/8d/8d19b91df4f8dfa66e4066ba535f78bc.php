@@ -70,20 +70,69 @@ class __TwigTemplate_4148452c6714727ac9f4756c86c51979 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1 class=\"text-center mb-4\">Edit Pedido</h1>
+        echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+        <div class=\"container\">
+            <a class=\"navbar-brand\" href=\"#\">
+                <img src=\"";
+        // line 9
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/coches/logo.jpg"), "html", null, true);
+        echo "\" alt=\"Logo\" />
+               
+            </a>
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"
+                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+                <ul class=\"navbar-nav\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 19
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
+        echo "\">Home</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 22
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_producto_index");
+        echo "\">Producto</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_cliente_index");
+        echo "\">Cliente</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 28
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fabricante_index");
+        echo "\">Fabricante</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"";
+        // line 31
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_pedido_index");
+        echo "\">Pedido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class=\"text-center mb-4\">Edit Pedido</h1>
     <a class=\"btn btn-success d-block mx-auto mb-1\" href=\"";
-        // line 7
+        // line 38
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_pedido_index");
         echo "\">back to list</a>
     ";
-        // line 8
+        // line 39
         echo twig_include($this->env, $context, "pedido/_form.html.twig", ["button_label" => "Update"]);
         echo "
 
     
 
     ";
-        // line 12
+        // line 43
         echo twig_include($this->env, $context, "pedido/_delete_form.html.twig");
         echo "
 ";
@@ -104,7 +153,7 @@ class __TwigTemplate_4148452c6714727ac9f4756c86c51979 extends Template
 
     public function getDebugInfo()
     {
-        return array (  87 => 12,  80 => 8,  76 => 7,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  136 => 43,  129 => 39,  125 => 38,  115 => 31,  109 => 28,  103 => 25,  97 => 22,  91 => 19,  78 => 9,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -114,6 +163,37 @@ class __TwigTemplate_4148452c6714727ac9f4756c86c51979 extends Template
 {% block title %}Edit Pedido{% endblock %}
 
 {% block body %}
+<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+        <div class=\"container\">
+            <a class=\"navbar-brand\" href=\"#\">
+                <img src=\"{{ asset('css/coches/logo.jpg') }}\" alt=\"Logo\" />
+               
+            </a>
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"
+                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+                <ul class=\"navbar-nav\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_home') }}\">Home</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_producto_index') }}\">Producto</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_cliente_index') }}\">Cliente</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_fabricante_index') }}\">Fabricante</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"{{ path('app_pedido_index') }}\">Pedido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1 class=\"text-center mb-4\">Edit Pedido</h1>
     <a class=\"btn btn-success d-block mx-auto mb-1\" href=\"{{ path('app_pedido_index') }}\">back to list</a>
     {{ include('pedido/_form.html.twig', {'button_label': 'Update'}) }}
@@ -122,6 +202,6 @@ class __TwigTemplate_4148452c6714727ac9f4756c86c51979 extends Template
 
     {{ include('pedido/_delete_form.html.twig') }}
 {% endblock %}
-", "pedido/edit.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendasymfony-1\\templates\\pedido\\edit.html.twig");
+", "pedido/edit.html.twig", "C:\\xampp\\htdocs\\F5\\simphony\\ProyectoGrupo\\tiendaSymfonyFinal\\templates\\pedido\\edit.html.twig");
     }
 }
